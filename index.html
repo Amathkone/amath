@@ -3,128 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmate</title>
+    <title>Ahmate Abakar Kone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
    <header>
-<div>
-    <h1>Voici ma représentation</h1>
-    <nav>
-        <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>WORK</li>
-            <li>RESUME</li>
-            <li>CONTACT</li>
-        </ul>
-    </nav>
-</div>
+<div class="Amath">
 
-<div>
-    <h1>Je suis Ahmate</h1>
-    <p>je m'appelle Ahmate Abakar Kone, j'ai 25 ans, je suis étudiant à GOMYCODE.
-         Mon père s'appelle Abakar Kone et ma mère s'appelle Khady Ndiouck</p>
-    
-</div>
-  <audio controls>
-   <source src="./this-lovely-day-263766.mp3">
-  </audio>
-<video controls width="400px">
-    <source src="./Oiseaux et Soleil.mp4">
-</video>
 
-<form>
-   <main>
-     <section id="I">
-       <h1>About Me</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Aut cumque saepe deleniti deserunt voluptatem possimus placeat facilis,
-              inventore sit aliquam quas neque.</p>
-              <br>
-              <h2>Hi There</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Ex sit quia laudantium quasi dignissimos exercitationem 
-                commodi obcaecati incidunt suscipit impedit autem placeat modi nesciunt quo, 
-                laboriosam repudiandae provident architecto! Nihil?</p>
-                <img src="./unnamed.jpg" alt="">
-     </section>
-     <section id="">
-        <h1>Work</h1>
-        <br>
-        <ol type="A">
-            <li>All Works</li>
-        
-        <img src="./laptop-7723139.jpg" alt="" width="200px">
-        <li>Art Direction</li>
-        <img src="./remote-5491798_960_720.webp" alt="" width="200px">
 
-        <li>WEB</li>
-        <img src="./istockphoto-2155111596-1024x1024.webp" alt="" width="200px">
 
-        <li>Design</li>
-        <img src="./web-1668927_960_720.webp" alt="" width="200px">
-    </ol>
-     </section>
 
-     <section>
-        <div>
-            <h1>Resume</h1>
-            <img src="./CV.webp" alt="" width="500">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">HOME</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">WORK</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">RESUME</a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
+      </nav>
+
+      <section>
+        
+        <div class="cover">
+            <section id="about">
+                <h2><a href="about"></a>À propos de moi</h2>
+                <h1>Ahmate Abakar Kone</h1>
+                <p>Je suis un étudiant en développement web a <b>Gomycode</b> passionné par la création de sites internet et d'applications.
+                    <br><br>
+                     J'aime apprendre de nouvelles technologies et relever des défis.</p>
+                <img src="./WhatsApp Image 2025-04-16 at 21.19.13.jpeg" width="400px">
+            </section>
+           </div>
+
+
      </section>
 
+
+
+
+     
      <section>
-        <h1>CONTACT</h1>
-        <br>
-        <label for="firstname">Prenom</label>
-        <input type="text" name="firstname" placeholder="Votre prenom"> 
-
-        <label for="Name">Nom</label>
-        <input type="text" name="Lastname" placeholder="Saisir votre nom">
-     
-        <label for="email">Email</label>
-        <input type="email" name="email" placeholder="Saisir votre email">
-     
-        <label for="Numero">Numero</label>
-        <input type="tel" name="Numero" placeholder="Saisir votre numéro">
-     
-        <label for="Age">Age</label>
-        <input type="Number" name="Age" placeholder="Saisir votre age">
-     
-        <label for="birthday">Date de naissance</label>
-        <input type="date" name="birthday" placeholder="Saisir votre date de naissance">
-     
-        <label for="Password">Mot de passe</label>
-        <input type="password" name="password" placeholder="Saisir votre mot de passe">
-     
       
-        <label for="color">couleur</label>
-        <input type="color" name="color" placeholder="Choisir une couleur">
-     
-        <label for="search">couleur</label>
-        <input type="search" name="search" placeholder="Rechercher ici...">
-     
-        <label for="level">niveau d'etude</label>
-     <select name="level" >
-        <option>BAC</option>
-        <option>LICENCE</option>
-        <option>MASTER</option>
-        <option>DOCTORAT</option>
-     </select>
-     
-     
-     <label for="message">Votre message</label>
-     <textarea name="message" placeholder="Ecrire votre nom" cols="30" rows="20"></textarea>
-     
-            <input type="submit" value="Envoyer">
-     
-
-
      </section>
 
-   </main>
-</form>
+    
+     <div class="cover2">
+        <section id="moncv">
+            <h2 align="center"><a href="moncv"></a>MON CV</h2>
+             <div>
+            
+            <img align="left" src="./CV.webp" alt="" width="500">
+        </div>
+           
+            <div class="project">
+            
+    
+                  [AHMATE ABAKAR KONE]
+                  <br>
+                  [DAKAR]
+                  <br><br>
+                  [Guédiawaye, 15000]
+                  <br><br>
+                  [Votre 772985724]
+                  <br><br>
+                  [Tooking244@gmail.com]
+                  <br><br>
+                  [Votre LinkedIn ou Portfolio en ligne]
+                  <br><br><br><br>
+                  
+                  Objectif Professionnel
+                  Étudiant en développement web passionné par la création de sites et d'applications interactives. <br><br>Je cherche à acquérir de l'expérience pratique dans un environnement dynamique où je peux appliquer mes compétences en programmation et en design.
+                  
+                  <h3>Formation</h3>
+                  [GOMYCODE]
+                  Diplôme en Développement Web
+                  
+                  
+                  Cours principaux : HTML, CSS, JavaScript, Python
+                  <br><br><br><br>
+                  <h2>Compétences Techniques</h2>
+                  Langages de programmation : HTML, CSS, JavaScript, python          
+                  
+                  Outils : Git, GitHub, Visual Studio Code
+                <h3>Projet 1: Mon premier site web</h3>
+                <p>site web de gaming d'un client</p>
+                <a href="https://www.gamehubsenegal.com/">Voir le projet</a>
+            </div>
+            </div>
 
+        </section>
+        <div class="cover3">
+        <section id="contact">
+            <h2><a href="contact"></a>CONTACT</h2>
+            <p>Vous pouvez me contacter par email à <a href="tooking244@gmail.com">tooking244@gmail.com</a>.</p>
+            <form>
+                  <label for="firstname">Prenom</label>
+                  <input type="text" name="firstname" placeholder="votre prenom">
+                  <br><br>
+                  <label for="lasttname">Nom</label>
+                  <input type="text" name="lasttname" placeholder="votre nom">
+                   <br><br>
+                  <label for="email">EMAIL</label>
+                  <input type="email" name="email" placeholder="Votre email" >
+                  <br><br>
+                  <input type="submit"  value="Envoyer" >
+            </form>
+    
+        </section>
+        </div>
+   
+        <footer>
+            <p>&copy; 2025 Ahmate Abakar Kone. Tous droits réservés.</p>
+        </footer>
+ </div>
 
    </header>
    

@@ -1,0 +1,38 @@
+
+
+div.Amath{
+    background: url(./Design\ sans\ titre.png) no-repeat center/100% 100%, no-repeat center/cover;
+    background-size: cover;
+    
+}
+
+
+div.cover h2{
+             margin-top: 200px;
+    text-align: center;
+    color:black (250, 155, 13);
+
+
+}
+div.cover h1{
+
+   
+text-align: center;
+color:black (250, 155, 13);
+
+}
+
+div.cover p{
+float: right;
+color: black (250, 155, 13);
+text-align: center;
+padding-right: 200px;
+margin-top: 100px;
+    
+}
+
+
+   div.cover3{
+    text-align: center;
+    background-color: rgb(231, 237, 240);
+}
